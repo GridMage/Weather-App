@@ -1,0 +1,130 @@
+* {
+	margin: 0;
+	padding: 1;
+	box-sizing: border-box;
+
+
+}
+
+body {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	background: linear-gradient(rgb(40, 160, 190), rgb(10, 60, 250));
+	font-family: HP Simplified;
+	color: white;
+	border: solid #2c2c2d;
+	border-width: 20px;
+
+}
+
+
+
+h1, .location-timezone {
+	border-width: 5px;
+	padding: 10px;
+	border-radius: 7px;
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	background-color: #56585a;
+	margin-bottom: 50px;
+	
+}
+.clock {
+    top: 50%;
+    left: 50%;
+    font-size: 30px;
+    font-family:HP Simplified;
+    letter-spacing: 3px;
+	border-width: 5px;
+	padding: 6px;
+	border-radius: 7px;
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	background-color: #56585a;
+	margin-bottom: 50px;
+}
+
+
+
+canvas {
+	margin-top: -50px;
+	border-radius: 10%;
+	border-width: 100px;
+
+}
+
+
+
+.location,
+ .temperature{
+	height: 30vh;
+	width: 50%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+
+	;
+	
+}
+
+.temperature {
+	flex-direction: column; 
+}
+
+.temperature-description {
+	margin-top: 100px;
+}
+
+.location :hover {
+	transform: scale(1.1);
+	transition: all .6s ease-in-out;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.degree-section :hover {
+	transform: scale(1.1);
+	transition: all .6s ease-in-out;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.degree-section {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	cursor: pointer;
+	background-color:#2c2c2d;
+	border-radius: 5%;
+	border: 20px;
+	margin-top: 40px;
+}
+
+.degree-section span {
+	margin: 12px;
+	font-size: 30px;
+
+}
+
+.degree-section h2 {
+	font-size: 30px;
+	margin-top: 0px;
+	border-width: 5px;
+	padding: 10px;
+	border-radius: 7px;
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	background-color: #56585a
+}
+
+}
+
+}
+
